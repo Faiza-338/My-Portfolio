@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- header -->
+    <div id="header" class="header-section">
+        <h1>My Portfolio Website</h1>
+        <p>Hello I am learning web development</p>
+    </div>
+    <hr>
+     <!-- navigation -->
+    <div id="navbar" class="navbar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <hr>
+      <!-- about-section -->
+    <div id="about" class="about-section">
+        <h2>About me</h2>
+        <img src="/images/faiza.jpg" alt="faiza" width="200">
+        <p>Motivated and detail-oriented individual with skills in web development, graphic design, digital marketing, and AI solutions. Passionate about creating modern digital experiences and continuously learning new technologies. Strong communication, problem-solving, and teamwork abilities with a focus on delivering quality results.</p>
+        <!-- button -->
+    <button>
+          Download CV
+    </button> 
+    </div> 
+    <hr>
+    <div id="skill" class="skill-section">
+        <h2>Skills</h2>
+        <h3>My Skills</h3>
+        <!-- unordered list -->
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Dart</li>
+            <li>C Programming</li>
+            <li>Python</li>
+        </ul>
+
+        <h3>Learning Goals</h3>
+        <!-- ordered list -->
+        <ol>
+            <li>React</li>
+            <li>Next.Js</li>
+            <li>Node.Js</li>
+        </ol>
+
+    </div>
+    <hr>
+    <div id="projects" class="project-section">
+        <h2>Projects</h2>
+        <!-- table -->
+         <table border="1" cellpadding="10" >
+
+            <tr>
+                <th colspan="3" class="project-heading">
+                    My Projects
+                </th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Technology</th>
+                <th>Status</th>
+            </tr>
+
+          
+            <tr>
+                <td rowspan="2">Portfolio Website</td>
+                <td>HTML</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                
+                <td>CSS</td>
+                <td>Running</td>
+            </tr>
+            <tr>
+                <td>Restaurant Website</td>
+                <td>bootstrap</td>
+                <td>Planning</td>
+            </tr>
+         </table>  
+    </div>
+     
+      <div id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form>
+            <!-- text input -->
+            <label>Full Name</label>
+            <br>
+            <input type="text" placeholder="Enter Your Name">
+            <br><br>
+            <!-- email -->
+            <label>E-Mail</label>
+            <br>
+            <input type="email" placeholder="Enter Your email">
+            <br><br>
+            <!-- password -->
+            <label>Password</label>
+            <br>
+            <input type="password" placeholder="Enter Your password">
+            <br><br>
+            <!-- date -->
+            <label>Date of Birth</label>
+            <br>
+            <input type="date" placeholder="Enter Your birthdate">
+            <br><br>
+            <!-- Radio Button -->
+            <label>Gender</label>
+            <br>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+            <br><br>
+            <!-- checkboxes -->
+            <label>Select Skills</label>
+            <br><br>
+            <input type="checkbox">HTML
+            <input type="checkbox">CSS
+            <input type="checkbox">JS
+            <input type="checkbox">Next.Js
+            <br><br>
+            <!-- dropdown -->
+            <label>Select Country</label>
+            <br>
+            <select>
+                <option>Bangladesh</option>
+                <option>USA</option>
+                <option>Singapore</option>
+                <option>Nigeria</option>
+                <option>Italy</option>
+            </select>
+            <br><br>
+            <!-- file upload -->
+             <label>Upload CV</label>
+             <br>
+             <input type="file">
+             <br><br>
+            <!-- buttons -->
+             <button type="submit">Send Message</button>
+             <button type="reset">Reset</button>
+        </form>
+      </div>
+      <hr>
+
+        <!-- Google Maps -->
+         <div id="location" class="location-section">
+          <h2>My Location</h2>
+          <iframe src="https://maps.app.goo.gl/x7Tkymyaiu8E2rG89" frameborder="2" width="400" height="300"></iframe>
+        </div>
+        <!-- Social Skills-->
+         <div id="social" class="social-section">
+            <h2>Social Media</h2>
+            <a href="https://www.facebook.com/faiza.khandoker.9">Facebook</a>
+            <br>
+            <a href="https://github.com/Faiza-338">Github</a>
+            <br>
+
+         </div>
+</body>
+</html>

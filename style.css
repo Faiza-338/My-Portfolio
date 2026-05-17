@@ -1,0 +1,285 @@
+/*Whole Page*/
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f7;
+    color: #222;
+}
+
+/* Header */
+#header{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#header h1{
+    margin: 0;
+    font-size: 36px;
+}
+
+#header p{
+    font-size: 18px;
+}
+
+/* Navigation */
+#navbar{
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#navbar a:hover{
+    color: rgb(245, 243, 119);
+    text-decoration: underline;
+}
+
+/* remove ugly hr line */
+hr{
+    display: none;
+}
+
+.about-section{
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px gray;
+}
+
+.skill-section{
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px gray;
+}
+.project-section{
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px gray;
+}
+.contact-section{
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px gray;
+}
+.location-section{
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px gray;
+}
+.social-section{
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px gray;
+}
+
+/*section-heading*/
+h2{
+    color: #1e3a8a;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+
+/* image */
+.about-section img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px gray;
+
+}
+
+/* my project heading box */
+.project-heading{
+    background-color: #0a48f1;
+    color: aliceblue;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+table th{
+    padding: 10px;
+    text-align: center;
+}
+
+table td{
+    padding: 10px;
+    text-align: center;
+}
+
+table th{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+input{
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+}
+select{
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+}
+textarea{
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button:hover{
+   background-color: #0056b3;
+   
+}
+
+/* button */
+button{
+    background-color: #2563eb;
+    color: #f4f4f4;
+    border: none;
+    padding: 12px 22px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* social-section */
+.social-section a{
+    text-decoration: none;
+    color: #0056b3;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.social-section a:hover{
+    color: red;
+}
+
+ul{
+    line-height: 1.8;
+}
+
+ol{
+    line-height: 1.8;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th{
+    background-color: #1e3a8a;
+    color: aliceblue;
+}
+
+td{
+    padding: 12px;
+    text-align: center;
+}
+
+th{
+   padding: 12px;
+   text-align: center; 
+}
+
+/* table-row hover */
+tr:hover{
+    background-color: #bfbfc0;
+}
+
+/*form*/
+form{
+    margin-top: 15px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    outline: none;
+    border-color: #2563eb;
+}
+select:focus{
+    outline: none;
+    border-color: #2563eb;
+}
+textarea:focus{
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* radio & checkbox */
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+}
+
+/*map*/
+iframe{
+    border-radius: 12px;
+    width: 100%;
+}
+
