@@ -5,6 +5,10 @@ body{
     padding: 0;
     background-color: #eef2f7;
     color: #222;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmjHeSOOmSQ22shkqjWbG6XJxkq4_vxv8CD3BUhbpayA&s);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* Header */
@@ -29,6 +33,9 @@ body{
     background-color: #333;
     text-align: center;
     padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 #navbar a{
@@ -37,6 +44,7 @@ body{
     margin: 15px;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #navbar a:hover{
@@ -50,6 +58,12 @@ hr{
 }
 
 .about-section{
+    min-width: 300px;
+    max-width: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     width: 80%;
     margin: 25px auto;
@@ -59,6 +73,8 @@ hr{
 }
 
 .skill-section{
+    min-width: 300px;
+    max-width: 3000px;
     background-color: white;
     width: 80%;
     margin: 25px auto;
@@ -67,6 +83,8 @@ hr{
     box-shadow: 0 4px 12px gray;
 }
 .project-section{
+    min-width: 300px;
+    max-width: 3000px;
     background-color: white;
     width: 80%;
     margin: 25px auto;
@@ -75,6 +93,8 @@ hr{
     box-shadow: 0 4px 12px gray;
 }
 .contact-section{
+    min-width: 300px;
+    max-width: 3000px;
     background-color: white;
     width: 80%;
     margin: 25px auto;
@@ -83,6 +103,8 @@ hr{
     box-shadow: 0 4px 12px gray;
 }
 .location-section{
+    min-width: 300px;
+    max-width: 3000px;
     background-color: white;
     width: 80%;
     margin: 25px auto;
@@ -91,12 +113,22 @@ hr{
     box-shadow: 0 4px 12px gray;
 }
 .social-section{
+    min-width: 300px;
+    max-width: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: baseline;
     background-color: white;
     width: 80%;
     margin: 25px auto;
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 4px 12px gray;
+}
+
+.social-section a{
+    cursor: pointer;
 }
 
 /*section-heading*/
@@ -109,11 +141,14 @@ h2{
 
 /* image */
 .about-section img{
+    float: center;
+    margin: 10px 25px 15px 0;
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 4px 12px gray;
+    
 
 }
 
@@ -174,7 +209,10 @@ button{
     margin-top: 10px;
     cursor: pointer;
     border-radius: 8px;
+    cursor: pointer;
 }
+
+
 
 /* social-section */
 .social-section a{
@@ -226,6 +264,10 @@ tr:hover{
 /*form*/
 form{
     margin-top: 15px;
+}
+
+form button{
+    justify-self: start;
 }
 
 label{
